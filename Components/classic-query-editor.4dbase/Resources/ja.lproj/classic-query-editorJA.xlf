@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0" xmlns:d4="http://www.4d.com">
+  <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="ja" product-version="v14">
+  <header>
+    <note></note>
+  </header>
+    <body>
+      <group id="1043">
+        <trans-unit id="6" resname="str.available-fields">
+          <target>利用可能フィールド：</target>
+        </trans-unit>
+      </group>
+      <group id="1000">
+        <trans-unit id="2" resname="str.cancel">
+          <target>閉じる</target>
+        </trans-unit>
+        <trans-unit id="11" resname="str.load">
+          <target>読み込み…</target>
+        </trans-unit>
+        <trans-unit id="12" resname="str.save">
+          <target>保存…</target>
+        </trans-unit>
+      </group>
+      <group id="1060">
+        <trans-unit id="1" resname="str.query">
+          <target>クエリ</target>
+        </trans-unit>
+        <trans-unit id="2" resname="str.query-editor">
+          <target>クエリエディター</target>
+        </trans-unit>
+        <trans-unit id="4" resname="str.operator">
+          <target>比較演算子：</target>
+        </trans-unit>
+        <trans-unit id="5" resname="str.value">
+          <target>値</target>
+        </trans-unit>
+        <trans-unit id="6" resname="str.and">
+          <target>かつ</target>
+        </trans-unit>
+        <trans-unit id="7" resname="str.or">
+          <target>または</target>
+        </trans-unit>
+        <trans-unit id="8" resname="str.not">
+          <target>以外</target>
+        </trans-unit>
+        <trans-unit id="9" resname="str.delete-line">
+          <target>行削除</target>
+        </trans-unit>
+        <trans-unit id="10" resname="str.insert-line">
+          <target>行挿入</target>
+        </trans-unit>
+        <trans-unit id="11" resname="str.add-line">
+          <target>行追加</target>
+        </trans-unit>
+        <trans-unit id="12" resname="str.query-selection">
+          <target>絞り込みクエリ</target>
+        </trans-unit>
+        <trans-unit id="15" resname="str.true">
+          <target>True</target>
+        </trans-unit>
+        <trans-unit id="16" resname="str.false">
+          <target>False</target>
+        </trans-unit>
+        <trans-unit id="17" resname="str.delete-all">
+          <target>すべて消去</target>
+        </trans-unit>
+      </group>
+      <group>
+        <trans-unit resname="list.type.master">
+          <target>マスターテーブル</target>
+        </trans-unit>
+        <trans-unit resname="list.type.related">
+          <target>リレートテーブル</target>
+        </trans-unit>
+        <trans-unit resname="list.type.all">
+          <target>すべてのテーブル</target>
+        </trans-unit>
+      </group>
+      <group>
+        <trans-unit resname="field.type.0">
+          <target>Alpha</target>
+        </trans-unit>
+        <trans-unit resname="field.type.1">
+          <target>Real</target>
+        </trans-unit>
+        <trans-unit resname="field.type.2">
+          <target>Text</target>
+        </trans-unit>
+        <trans-unit resname="field.type.3">
+          <target>Picture</target>
+        </trans-unit>
+        <trans-unit resname="field.type.4">
+          <target>Date</target>
+        </trans-unit>
+        <trans-unit resname="field.type.5">
+          <target>Undefined</target>
+        </trans-unit>
+        <trans-unit resname="field.type.6">
+          <target>Boolean</target>
+        </trans-unit>
+        <trans-unit resname="field.type.7">
+          <target>Subtable</target>
+        </trans-unit>
+        <trans-unit resname="field.type.8">
+          <target>Int16</target>
+        </trans-unit>
+        <trans-unit resname="field.type.9">
+          <target>Int32</target>
+        </trans-unit>
+        <trans-unit resname="field.type.11">
+          <target>Time</target>
+        </trans-unit>
+        <trans-unit resname="field.type.25">
+          <target>Int64</target>
+        </trans-unit>
+        <trans-unit resname="field.type.30">
+          <target>Int64</target>
+        </trans-unit>
+        <trans-unit resname="field.type.35">
+          <target>Float</target>
+        </trans-unit>
+        <trans-unit resname="field.type.38">
+          <target>Object</target>
+        </trans-unit>
+      </group>
+      <group>
+        <trans-unit resname="operator.type.1">
+          <target>equal</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.2">
+          <target>unequal</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.3">
+          <target>greater-than-or-equal</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.4">
+          <target>greater-than</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.5">
+          <target>less-than-or-equal</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.6">
+          <target>less-than</target>
+        </trans-unit>
+
+        <trans-unit resname="operator.type.7">
+          <target>inside-inclusive</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.8">
+          <target>outside-inclusive</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.9">
+          <target>begins-with</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.10">
+          <target>ends-with</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.11">
+          <target>contain</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.12">
+          <target>does-not-contain</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.13">
+          <target>contain-some-keywords</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.14">
+          <target>contain-all-keywords</target>
+        </trans-unit>
+
+        <trans-unit resname="operator.type.41">
+          <target>is-empty</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.42">
+          <target>is-not-empty</target>
+        </trans-unit>
+
+        <trans-unit resname="operator.type.equal">
+          <target>=</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.unequal">
+          <target>≠</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.less-than-or-equal">
+          <target>≦</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.less-than">
+          <target>&lt;</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.greater-than-or-equal">
+          <target>≧</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.greater-than">
+          <target>&gt;</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.begins-with">
+          <target>前方一致</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.ends-with">
+          <target>後方一致</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.contain">
+          <target>含む</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.does-not-contain">
+          <target>含まない</target>
+        </trans-unit>
+        <trans-unit resname="operator.type.contain-keyword">
+          <target>キーワードを含む</target>
+        </trans-unit>
+      </group>
+      <group>
+        <trans-unit resname="format.boolean">
+          <target>True;;False</target>
+        </trans-unit>
+      </group>
+      <group>
+        <trans-unit resname="logical.operator.type.1">
+          <target>かつ</target>
+        </trans-unit>
+        <trans-unit resname="logical.operator.type.2">
+          <target>または</target>
+        </trans-unit>
+        <trans-unit resname="logical.operator.type.3">
+          <target>以外</target>
+        </trans-unit>
+      </group>
+      <group>
+        <trans-unit resname="developer.plan">
+          <target>プラン</target>
+        </trans-unit>
+        <trans-unit resname="developer.path">
+          <target>パス</target>
+        </trans-unit>
+        <trans-unit resname="developer.json">
+          <target>クエリ</target>
+        </trans-unit>
+      </group>
+      <group>
+        <trans-unit resname="str.save-dialog-title">
+          <target>保存</target>
+        </trans-unit>
+        <trans-unit resname="str.open-dialog-title">
+          <target>開く</target>
+        </trans-unit>
+        <trans-unit resname="str.default-file-name">
+          <target>query</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

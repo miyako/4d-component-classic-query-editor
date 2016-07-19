@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xliff version="1.0" xmlns:d4="http://www.4d.com/d4-ns">
+  <file datatype="x-STR#" original="undefined" product-version="v14" source-language="en-US" target-language="en-US">
+    <header>
+      <note></note>
+    </header>
+    <body>
+
+      <group resname="themes">
+        <trans-unit id="16BC8C08EE0C425ABB271B6E9E71975F" resname="16BC8C08EE0C425ABB271B6E9E71975F" translate="no">
+          <source>Classic Query Editor</source>
+        </trans-unit>
+      </group>
+
+      <group d4:groupName="16BC8C08EE0C425ABB271B6E9E71975F" restype="x-4DK#">
+        <trans-unit d4:value="38:L" id="16BC8C08EE0C425ABB271B6E9E71975F.1">
+          <source>Is object</source>
+        </trans-unit>
+        <trans-unit d4:value="1:L" id="16BC8C08EE0C425ABB271B6E9E71975F.2">
+          <source>Field list master</source>
+        </trans-unit>
+        <trans-unit d4:value="2:L" id="16BC8C08EE0C425ABB271B6E9E71975F.3">
+          <source>Field list related</source>
+        </trans-unit>
+        <trans-unit d4:value="3:L" id="16BC8C08EE0C425ABB271B6E9E71975F.4">
+          <source>Field list all</source>
+        </trans-unit>
+        <trans-unit d4:value="1:L" id="16BC8C08EE0C425ABB271B6E9E71975F.5">
+          <source>Result create selection</source>
+        </trans-unit>
+        <trans-unit d4:value="2:L" id="16BC8C08EE0C425ABB271B6E9E71975F.6">
+          <source>Result filter selection</source>
+        </trans-unit>
+        <trans-unit d4:value="3:L" id="16BC8C08EE0C425ABB271B6E9E71975F.7">
+          <source>Result add to selection</source>
+        </trans-unit>
+        <trans-unit d4:value="4:L" id="16BC8C08EE0C425ABB271B6E9E71975F.8">
+          <source>Result remove from selection</source>
+        </trans-unit>
+        <trans-unit d4:value="3:L" id="16BC8C08EE0C425ABB271B6E9E71975F.9">
+          <source>Query version 3</source>
+        </trans-unit>
+      </group>
+
+    </body>
+  </file>
+</xliff>
