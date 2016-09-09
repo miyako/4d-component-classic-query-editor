@@ -14,7 +14,8 @@ OB SET($params;\
   "tableNumber";Table(->[Aliment]);\
   "repeat";True;\
   "developer";True;\
-  "language";"ja")
+  "language";"ja"\
+  "selection";True)
 
 CLASSIC_QUERY ($params)
 ```
