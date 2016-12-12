@@ -11,6 +11,8 @@ To take advantage of this new feature, do one of the following:
 
 * Explicitly call the shared methods ``CLASSIC_QUERY_DEINIT`` and ``CLASSIC_QUERY_INIT`` in your host database.
 
+**Note:** Even if you do neither of the above, the lists are still created on the fly and internally cached. 
+
 ### Usage
 
 Pass an object to the shared ``CLASSIC_QUERY`` method.
