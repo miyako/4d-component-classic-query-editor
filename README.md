@@ -15,7 +15,7 @@ To take advantage of this new feature, do one of the following:
 
 Be default, all 3 types of lists (master, related, all( are created for all tables. If you only use the related list (the most common) you might want to comment out the 2 lines in ``Cache_CREATE_LIST`` as illustrated below:
 
-``
+```
 C_LONGINT($1)
 
 If (Count parameters=0)
@@ -31,7 +31,7 @@ Else
   End for 
 
 End if 
-``
+```
 
 ### Usage
 
