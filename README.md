@@ -33,7 +33,7 @@ Else
 End if 
 ```
 
-Alternatively, you could limit the tables for which you pre-build field lists this way.
+Alternatively, you could limit the tables for which you pre-build the field lists.
 
 ### Usage
 
