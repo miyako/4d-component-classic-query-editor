@@ -3,7 +3,7 @@ Replica of the pre-v14 era query editor, with some enhancements.
 
 ###New!
 
-Table-field lists are created in the background and cached, for optimised performace.
+Table-field lists are created in the background and cached, for optimised performance.
 
 To take advantage of this new feature, do one of the following:
 
