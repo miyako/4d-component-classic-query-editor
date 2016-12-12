@@ -33,6 +33,8 @@ Else
 End if 
 ```
 
+Alternatively, you could limit the tables for which you pre-build field lists this way.
+
 ### Usage
 
 Pass an object to the shared ``CLASSIC_QUERY`` method.
