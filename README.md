@@ -35,6 +35,8 @@ End if
 
 Alternatively, you could limit the tables for which you pre-build the field lists.
 
+For all 3 methods, ``$1`` is the master table number and ``$2`` is a string to filter displayed field names (the feature is not exposed in the current UI). ``$3`` of ``Cache_Get_list_for_table`` specifies whether to display related field names with their table names.
+
 ### Usage
 
 Pass an object to the shared ``CLASSIC_QUERY`` method.
