@@ -1,7 +1,15 @@
 # 4d-component-classic-query-editor
 Replica of the pre-v14 era query editor, with some enhancements.
 
-**Note**: The component is written for v15, though it only uses v14 features. (sorry about that)
+###New!
+
+Table-field lists are created in the background and cached, for optimised performace.
+
+To take advantage of this new feature, do one of the following:
+
+* Enable [Execute "On Host Database Event" method of the components](http://doc.4d.com/4Dv15/4D/15.3/Security-page.300-3162580.en.html)
+
+* Explicitly call the shared methods ``CLASSIC_QUERY_DEINIT`` and ``CLASSIC_QUERY_INIT`` in your host database.
 
 ### Usage
 
