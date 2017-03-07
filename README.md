@@ -61,4 +61,14 @@ OB SET($params;\
 CLASSIC_QUERY ($params)
 ```
 
+###Options
+
+``repeat``: Keep the editor open in the same process (``DIALOG(*)``) to perform subsequent queries on the same selection.
+
+**Note**: In repeat mode, the user can quickly navigate through previous queries using the ``back`` and ``forward`` buttons.
+
+``developer``: Display the query path and query plan.
+
+``selection``: Disable the ``query`` button and allow ``query selection`` only.
+
 ![screenshot](https://cloud.githubusercontent.com/assets/1725068/16935310/3f302074-4d99-11e6-9b9d-9bf171874cc6.png)
