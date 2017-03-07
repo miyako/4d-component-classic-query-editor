@@ -3,11 +3,7 @@ Replica of the pre-v14 era query editor, with some enhancements.
 
 ###New!
 
-The ``depth`` option can be used to specify how deep the field list should traverse a relation. The default is ``3`` levels. The maximum is ``9`` levels. The minimum is ``1`` level. Out-of-range values are cajoled.
-
-###Constant
-
-``Default depth`` ``3``
+The ``depth`` option can be used to specify how deep the field list should traverse a relation. The default is ``3`` levels. The maximum is ``9`` levels. The minimum is ``1`` level. Out-of-range values are cajoled. You can pass the ``Default depth`` constant for ``3``.
 
 ###Was new...
 
