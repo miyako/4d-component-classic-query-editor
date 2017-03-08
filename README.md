@@ -59,7 +59,7 @@ OB SET($params;\
   "repeat";True;\
   "developer";True;\
   "depth";Default depth;\
-  "language";"ja"\
+  "language";"ja";\
   "selection";True)
 
 CLASSIC_QUERY ($params)
