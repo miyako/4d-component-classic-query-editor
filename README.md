@@ -3,9 +3,15 @@ Replica of the pre-v14 era query editor, with some enhancements.
 
 ###New!
 
+The bottom area (input value, input value list, boolean radio button group, operator, conjunction, field list) is updated whenever a line in the query is selected.
+
+Up/down arrow can be used to select a query line when the input value has focus.
+
+###Was new...
+
 You can use ``4DF`` files created in v11-v13.
 
-###New!
+###Was new...
 
 The ``depth`` option can be used to specify how deep the field list should traverse a relation. The default is ``3`` levels. The maximum is ``9`` levels. The minimum is ``1`` level. Out-of-range values are cajoled. You can pass the ``Default depth`` constant for ``3``.
 
