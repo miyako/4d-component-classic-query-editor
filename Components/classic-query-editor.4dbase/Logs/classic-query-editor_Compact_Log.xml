@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <verifylog operation="Compact" name="classic-query-editor" structure="Macintosh HD:Users:miyako:Documents:GitHub:4d-component:4d-component-classic-query-editor:Components:classic-query-editor.4dbase:classic-query-editor.4DB" data="" os="Mac OS X (10.11.6)">
-<start_timer time="2016-12-12T10:58:38+09:00"/>
+<start_timer time="2017-03-09T16:44:15+09:00"/>
 <step title="メンテナンスモードでデータベースを開く">
 </step>
 <step title="圧縮">
@@ -32,13 +32,13 @@
 		<step title="インデックスBツリー インデックス1 on stamp (stamp)を圧縮中">
 			<step title="Bツリー インデックス1 on stamp (stamp) のインデックスページアドレスを圧縮中">
 			</step>
+			<step title="Bツリー インデックス1 on stamp (stamp) の削除されたインデックスページのリストを圧縮中">
+			</step>
 			<step title="Bツリー インデックス1 on stamp (stamp) のインデックスページを圧縮中">
 			</step>
 		</step>
 		<step title="インデックスBツリー インデックス2 on kind , id (TYPE and ID)を圧縮中">
 			<step title="Bツリー インデックス2 on kind , id (TYPE and ID) のインデックスページアドレスを圧縮中">
-			</step>
-			<step title="Bツリー インデックス2 on kind , id (TYPE and ID) の削除されたインデックスページのリストを圧縮中">
 			</step>
 			<step title="Bツリー インデックス2 on kind , id (TYPE and ID) のインデックスページを圧縮中">
 			</step>
@@ -46,22 +46,18 @@
 	</step>
 	<step title="データテーブル定義を圧縮中">
 	</step>
-	<step title="リレーション定義を圧縮中">
-	</step>
-	<step title="バックアップインデックス定義を圧縮中">
-	</step>
 	<step title="以前のファイルをバックアップに移動">
-<move from="Macintosh HD:Users:miyako:Documents:GitHub:4d-component:4d-component-classic-query-editor:Components:classic-query-editor.4dbase:classic-query-editor.4DB" to="Macintosh HD:Users:miyako:Documents:GitHub:4d-component:4d-component-classic-query-editor:Components:classic-query-editor.4dbase:Replaced Files (Compacting) 2016-12-12 10-58-38:classic-query-editor.4DB">
+<move from="Macintosh HD:Users:miyako:Documents:GitHub:4d-component:4d-component-classic-query-editor:Components:classic-query-editor.4dbase:classic-query-editor.4DB" to="Macintosh HD:Users:miyako:Documents:GitHub:4d-component:4d-component-classic-query-editor:Components:classic-query-editor.4dbase:Replaced Files (Compacting) 2017-03-09 16-44-15:classic-query-editor.4DB">
 </move>	</step>
 	<step title="新しいファイルをデータベースフォルダに作成">
-<move from="Macintosh HD:Users:miyako:Documents:GitHub:4d-component:4d-component-classic-query-editor:Components:classic-query-editor.4dbase:Replaced Files (Compacting) 2016-12-12 10-58-38:_classic-query-editor_compacted.4DB" to="Macintosh HD:Users:miyako:Documents:GitHub:4d-component:4d-component-classic-query-editor:Components:classic-query-editor.4dbase:classic-query-editor.4DB">
+<move from="Macintosh HD:Users:miyako:Documents:GitHub:4d-component:4d-component-classic-query-editor:Components:classic-query-editor.4dbase:Replaced Files (Compacting) 2017-03-09 16-44-15:_classic-query-editor_compacted.4DB" to="Macintosh HD:Users:miyako:Documents:GitHub:4d-component:4d-component-classic-query-editor:Components:classic-query-editor.4dbase:classic-query-editor.4DB">
 </move>	</step>
 	<step title="以前のインデックスファイルをバックアップに移動">
-<move from="Macintosh HD:Users:miyako:Documents:GitHub:4d-component:4d-component-classic-query-editor:Components:classic-query-editor.4dbase:classic-query-editor.4DIndy" to="Macintosh HD:Users:miyako:Documents:GitHub:4d-component:4d-component-classic-query-editor:Components:classic-query-editor.4dbase:Replaced Files (Compacting) 2016-12-12 10-58-38:classic-query-editor.4DIndy">
+<move from="Macintosh HD:Users:miyako:Documents:GitHub:4d-component:4d-component-classic-query-editor:Components:classic-query-editor.4dbase:classic-query-editor.4DIndy" to="Macintosh HD:Users:miyako:Documents:GitHub:4d-component:4d-component-classic-query-editor:Components:classic-query-editor.4dbase:Replaced Files (Compacting) 2017-03-09 16-44-15:classic-query-editor.4DIndy">
 </move>	</step>
 	<step title="新しいインデックスファイルをデータベースフォルダに作成">
-<move from="Macintosh HD:Users:miyako:Documents:GitHub:4d-component:4d-component-classic-query-editor:Components:classic-query-editor.4dbase:Replaced Files (Compacting) 2016-12-12 10-58-38:_classic-query-editor_compacted.4DIndy" to="Macintosh HD:Users:miyako:Documents:GitHub:4d-component:4d-component-classic-query-editor:Components:classic-query-editor.4dbase:classic-query-editor.4DIndy">
+<move from="Macintosh HD:Users:miyako:Documents:GitHub:4d-component:4d-component-classic-query-editor:Components:classic-query-editor.4dbase:Replaced Files (Compacting) 2017-03-09 16-44-15:_classic-query-editor_compacted.4DIndy" to="Macintosh HD:Users:miyako:Documents:GitHub:4d-component:4d-component-classic-query-editor:Components:classic-query-editor.4dbase:classic-query-editor.4DIndy">
 </move>	</step>
 </step>
-<stop_timer time="2016-12-12T10:58:38+09:00" success="true" user_canceled="false"/>
+<stop_timer time="2017-03-09T16:44:16+09:00" success="true" user_canceled="false"/>
 </verifylog>
