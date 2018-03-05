@@ -3,11 +3,19 @@ Replica of the pre-v14 era query editor, with some enhancements.
 
 ### New!
 
+French localisation is available. 
+
+New option ``windowType`` to specify the editor window type. The default (``Default window type``) is ``Plain form window + Form has no menu bar``  
+
+New option ``useSheetForFileSelect`` to specify whether to add the ``Use sheet window`` when calling ``Select document``  
+
+The system variables ``OK`` and ``DOCUMENT`` are returned in the context object, when the ``repeat`` option is not used. 
+
+### Was new...
+
 The bottom area (input value, input value list, boolean radio button group, operator, conjunction, field list) is updated whenever a line in the query is selected.
 
 Up/down arrow can be used to select a query line when the input value has focus.
-
-### Was new...
 
 You can use ``4DF`` files created in v11-v13.
 
