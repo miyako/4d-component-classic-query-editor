@@ -12,6 +12,10 @@ New option ``useSheetForFileSelect`` to specify whether to add the ``Use sheet w
 
 The system variables ``OK`` and ``DOCUMENT`` are returned in the context object, when the ``repeat`` option is not used. 
 
+``C_LONGINT`` is used extensively to avoid default typing of ``C_REAL`` by the compiler  
+
+The form "Developer" is now an inherited from of "Standard".
+
 ### Was new...
 
 The bottom area (input value, input value list, boolean radio button group, operator, conjunction, field list) is updated whenever a line in the query is selected.
