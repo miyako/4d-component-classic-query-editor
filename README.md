@@ -5,9 +5,10 @@ Replica of the pre-v14 era query editor, with some enhancements.
 
 French localisation is available. 
 
-New option ``windowType`` to specify the editor window type. The default (``Default window type``) is ``Plain form window + Form has no menu bar``  
+New option ``windowType`` to specify the editor window type (default:``Default window type`` = ``Plain form window`` + ``Form has no menu bar``).  
+ 
 
-New option ``useSheetForFileSelect`` to specify whether to add the ``Use sheet window`` when calling ``Select document``  
+New option ``useSheetForFileSelect`` to specify whether to add the ``Use sheet window`` when calling ``Select document`` (default:``False``).  
 
 The system variables ``OK`` and ``DOCUMENT`` are returned in the context object, when the ``repeat`` option is not used. 
 
