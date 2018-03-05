@@ -83,7 +83,7 @@ CLASSIC_QUERY ($params)
 
 ### Options
 
-``repeat``: Keep the editor open in the same process (``DIALOG(*)``) to perform subsequent queries on the same selection.
+``repeat``: Keep the editor open in the same process with ``DIALOG(*)`` to perform continuous queries on the same selection.
 
 **Note**: In repeat mode, the user can quickly navigate through previous queries using the ``back`` and ``forward`` buttons.
 
