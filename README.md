@@ -3,6 +3,12 @@ Replica of the pre-v14 era query editor, with some enhancements.
 
 ### New!
 
+A new cache mechanism for table lists is implemented.
+
+The structure XML (``EXPORT STRUCTURE``) and parameters are hashed and used as list identifiers. If an identical list has been created previously by the component, it will be loaded from disk on the client side. If not, it will be created on the server side (to reduce network traffic) and cached on the server side (for other clients) as well as the client side (for local use).
+
+### Was new...
+
 French localisation is available. 
 
 New option ``windowType`` to specify the editor window type (default:``Default window type`` = ``Plain form window`` + ``Form has no menu bar``).  
@@ -16,8 +22,6 @@ The system variables ``OK`` and ``DOCUMENT`` are returned in the context object,
 The form "Developer" is now an inherited from of "Standard".
 
 Do not call ``DESCRIBE QUERY EXECUTION`` in standard mode.
-
-### Was new...
 
 The bottom area (input value, input value list, boolean radio button group, operator, conjunction, field list) is updated whenever a line in the query is selected.
 
