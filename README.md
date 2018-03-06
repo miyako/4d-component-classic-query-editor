@@ -69,6 +69,6 @@ CLASSIC_QUERY ($params)
 
 ``useSheetForFileSelect``: Change the editor's ``Select document`` option  
 
-``depth``: Specify how deep the field list should traverse a relation. The default is ``3`` levels. The maximum is ``9`` levels. The minimum is ``1`` level. Out-of-range values are cajoled. You can pass the ``Default depth`` constant for ``3``. Recursive relations are blocked when it reaches the master table.
+``depth``: Specify how deep the field list should traverse a relation. The default is ``3`` levels. The maximum is ``9`` levels. The minimum is ``1`` level. Out-of-range values are cajoled. You can pass the ``Default depth`` constant for ``3``. Recursive relations are blocked when it reaches the master table. Unlike the original editor, both ``ONE`` and ``MANY`` relations are traced.
 
 ![screenshot](https://cloud.githubusercontent.com/assets/1725068/16935310/3f302074-4d99-11e6-9b9d-9bf171874cc6.png)
