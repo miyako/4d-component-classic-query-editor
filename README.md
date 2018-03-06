@@ -1,7 +1,13 @@
 # 4d-component-classic-query-editor
 Replica of the pre-v14 era query editor, with some enhancements.
 
+### Releases
+
+[1.2](https://github.com/miyako/4d-component-classic-query-editor/releases/tag/1.2)
+
 ### New!
+
+When the ``repeat`` option is used, the initial current selection is now the starting point of search history. You can revert all the way back to that selection using the "back" button. Previously, the result of the first query was the starting point.
 
 A new cache mechanism for table lists is implemented.
 
