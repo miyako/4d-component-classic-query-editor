@@ -1,9 +1,11 @@
 # 4d-component-classic-query-editor
 Replica of the pre-v14 era query editor, with some enhancements.
 
-### Releases
+### Remarks 
 
-[1.2](https://github.com/miyako/4d-component-classic-query-editor/releases/tag/1.2)
+* The component has been upgraded to v17 (previously v14)
+* The ``Form`` object is now used instead of a process object variable to manage context
+* The form can not be exported to project yet, due to the use of a grouped scrollable area
 
 ### New!
 
