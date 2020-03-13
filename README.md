@@ -4,7 +4,8 @@ Replica of the pre-v14 era query editor, with some enhancements.
 ### Remarks 
 
 * The component has been upgraded to v17 (previously v14)
-* the ``Form`` object is now used instead of a process object variable to manage context
+* The ``Form`` object is now used instead of a process object variable to manage context
+* The form can not be exported to project yet, due to the use of a grouped scrollable area
 
 ### New!
 
