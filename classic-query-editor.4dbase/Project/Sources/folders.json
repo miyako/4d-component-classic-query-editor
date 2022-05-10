@@ -1,0 +1,140 @@
+﻿{
+	"Compiler": {
+		"methods": [
+			"Compiler_Methods",
+			"Compiler_Variables"
+		]
+	},
+	"Debug": {
+		"methods": [
+			"Is_debug_mode"
+		]
+	},
+	"Editor": {
+		"methods": [
+			"Editor_CLEAR",
+			"Editor_CLEAR_INPUT",
+			"Editor_CLEAR_LINE",
+			"Editor_ENABLE",
+			"Editor_ENABLE_DELETE",
+			"Editor_ENABLE_QUERY",
+			"Editor_FORM_METHOD",
+			"Editor_INSERT",
+			"Editor_QUERY_SAVE",
+			"Editor_QUERY_UPDATE",
+			"Editor_SELECT",
+			"Editor_SELECT_FIELD",
+			"Editor_SELECT_OPERATOR",
+			"Editor_SET_FIELD",
+			"Editor_SET_LIST",
+			"Editor_SET_LOGIC",
+			"Editor_SET_OPERATOR",
+			"Editor_SET_VALUE",
+			"Editor_UPDATE"
+		]
+	},
+	"Event": {
+		"methods": [
+			"ON_ARROW_DOWN",
+			"ON_ARROW_UP",
+			"ON_COMMAND",
+			"ON_LOAD",
+			"ON_UNLOAD"
+		]
+	},
+	"Fields": {
+		"methods": [
+			"Field_Get_icon",
+			"Field_get_type",
+			"Field_is_primary_key",
+			"Table_Create_list",
+			"Table_Create_list_all_c",
+			"Table_Create_list_all_s",
+			"Table_Create_list_c",
+			"Table_Create_list_item_1",
+			"Table_Create_list_item_n",
+			"Table_Create_list_item_t",
+			"Table_Create_list_master_c",
+			"Table_Create_list_master_s",
+			"Table_Create_list_s",
+			"Table_Create_sublist",
+			"Table_Create_sublist_item",
+			"Table_Create_sublist_t",
+			"Table_GET_MANY_FIELDS"
+		]
+	},
+	"Format": {
+		"methods": [
+			"Format_Date",
+			"Format_Number",
+			"Format_Time"
+		]
+	},
+	"Hash": {
+		"methods": [
+			"HASH_Create_list",
+			"HASH_Create_list_all",
+			"HASH_Create_list_master"
+		]
+	},
+	"History": {
+		"methods": [
+			"History_ADD",
+			"History_RESTORE"
+		]
+	},
+	"JSON": {
+		"methods": [
+			"JSON_ERROR",
+			"JSON_Try_to_parse"
+		]
+	},
+	"List": {
+		"methods": [
+			"List_CLEAR",
+			"LIST_ERROR"
+		]
+	},
+	"Operator": {
+		"methods": [
+			"Operator_Create_list"
+		]
+	},
+	"Path": {
+		"methods": [
+			"Path_Get_folder"
+		]
+	},
+	"Public": {
+		"methods": [
+			"CLASSIC_QUERY"
+		],
+		"forms": [
+			"Developer",
+			"Standard"
+		]
+	},
+	"Query": {
+		"methods": [
+			"Editor_QUERY_LOAD",
+			"Editor_QUERY_LOAD_LEGACY",
+			"Query_Get_lines",
+			"Query_ON_SELECTION",
+			"Query_ON_TABLE",
+			"Query_Parse_lines",
+			"Query_Parse_lines_for_display"
+		]
+	},
+	"TEXT": {
+		"methods": [
+			"TEXT_ERROR",
+			"TEXT_Try_to_load"
+		]
+	},
+	"Window": {
+		"methods": [
+			"WINDOW_ACTIVATE"
+		]
+	},
+	"trash": {}
+}

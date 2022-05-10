@@ -1,0 +1,109 @@
+﻿{
+	"windowTitle": ":xliff:str.query",
+	"inheritedForm": "Standard",
+	"windowMinWidth": 650,
+	"windowMinHeight": 466,
+	"rightMargin": 24,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onUnload"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Developer": {
+					"type": "tab",
+					"top": 14,
+					"left": 710,
+					"width": 341,
+					"height": 443,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						":xliff:developer.plan",
+						":xliff:developer.path",
+						":xliff:developer.json"
+					],
+					"method": "ObjectMethods/Developer.4dm",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"JSON": {
+					"type": "input",
+					"top": 47,
+					"left": 721,
+					"width": 305,
+					"height": 401,
+					"visibility": "hidden",
+					"sizingX": "move",
+					"sizingY": "grow",
+					"enterable": false,
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Path": {
+					"type": "input",
+					"top": 47,
+					"left": 721,
+					"width": 305,
+					"height": 401,
+					"visibility": "hidden",
+					"sizingX": "move",
+					"sizingY": "grow",
+					"enterable": false,
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Plan": {
+					"type": "input",
+					"top": 47,
+					"left": 721,
+					"width": 305,
+					"height": 401,
+					"visibility": "hidden",
+					"sizingX": "move",
+					"sizingY": "grow",
+					"enterable": false,
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Default",
+		"defaultView": "Default",
+		"views": {
+			"Default": {},
+			"Hidden by default": {},
+			"Layer 3": {},
+			"Layer 4": {},
+			"Layer 5": {},
+			"Layer 6": {},
+			"Layer 7": {},
+			"Layer 8": {},
+			"Layer 9": {}
+		}
+	}
+}

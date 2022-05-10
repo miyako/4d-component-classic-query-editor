@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="classic-query-editor" uuid="3A2CA53F36D243DE8AE8823DCAF1F78B" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Table_1" uuid="434E897F0A7A4F3780144C079E17CF35" id="23">
+		<field name="PK" uuid="82779050B33C4167BF44EFCE3516DB7F" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="Field_2" uuid="01E30AA0D2B44B209D6C41A3065A855A" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Field_3" uuid="98D0300196C54C4FAD7618D43622CB3A" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Field_4" uuid="B064840592244D6AB56C36EFEADAB9FC" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="Field_5" uuid="827D6DC1817A4F849071890FC3FCD575" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="Field_6" uuid="575769B2918D43E6817647F4F92513E5" type="10" limiting_length="255" never_null="true" id="6"/>
+		<primary_key field_name="PK" field_uuid="82779050B33C4167BF44EFCE3516DB7F"/>
+		<table_extra input_form="" output_form="">
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="410.6640625" top="148.71484375" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="F698630074944648B3696512CC721A6F" type="7">
+		<field_ref uuid="82779050B33C4167BF44EFCE3516DB7F" name="PK">
+			<table_ref uuid="434E897F0A7A4F3780144C079E17CF35" name="Table_1"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0" package_name="classic-query-editor" structure_file_name="classic-query-editor" data_file_path=":Data:classic-query-editor.4DD">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>
