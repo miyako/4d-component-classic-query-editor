@@ -1,4 +1,4 @@
-﻿{
+{
 	"windowTitle": ":xliff:str.query",
 	"inheritedForm": "Standard",
 	"windowMinWidth": 650,
@@ -11,6 +11,7 @@
 	"markerFooter": 240,
 	"events": [
 		"onLoad",
+		"onCloseBox",
 		"onUnload"
 	],
 	"method": "method.4dm",
@@ -105,5 +106,9 @@
 			"Layer 8": {},
 			"Layer 9": {}
 		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
 	}
 }

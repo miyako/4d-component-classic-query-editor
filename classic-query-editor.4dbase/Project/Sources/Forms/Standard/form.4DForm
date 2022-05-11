@@ -1,4 +1,4 @@
-﻿{
+{
 	"windowTitle": ":xliff:str.query",
 	"windowMinWidth": 650,
 	"windowMinHeight": 466,
@@ -10,6 +10,7 @@
 	"markerFooter": 240,
 	"events": [
 		"onLoad",
+		"onCloseBox",
 		"onUnload"
 	],
 	"method": "method.4dm",
@@ -959,6 +960,7 @@
 					"events": [
 						"onSelectionChange"
 					],
+					"sizingX": "grow",
 					"columns": [
 						{
 							"name": "slogic",
@@ -1136,8 +1138,8 @@
 				"BooleanFalse"
 			]
 		},
-		"defaultView": "Default",
 		"activeView": "Hidden by default",
+		"defaultView": "Default",
 		"views": {
 			"Default": {},
 			"Hidden by default": {
@@ -1181,5 +1183,10 @@
 			"Layer 8": {},
 			"Layer 9": {}
 		}
+	},
+	"geometryStamp": 1,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
 	}
 }

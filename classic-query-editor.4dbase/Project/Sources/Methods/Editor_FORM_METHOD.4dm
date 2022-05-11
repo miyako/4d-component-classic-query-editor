@@ -8,8 +8,14 @@ Case of
 		
 		ON_LOAD
 		
+	: ($event=On Close Box:K2:21)
+		
+		CANCEL:C270
+		
 	: ($event=On Unload:K2:2)
 		
 		ON_UNLOAD
+		
+		Form:C1466.set_window_position()
 		
 End case 

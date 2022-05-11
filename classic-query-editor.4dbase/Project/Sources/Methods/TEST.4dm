@@ -13,7 +13,7 @@ Else
 		"developer"; False:C215; \
 		"formula"; Formula:C1597(TEST_CB); \
 		"depth"; 9; \
-		"windowType"; Default window type; \
+		"windowType"; Plain window:K34:13; \
 		"useSheetForFileSelect"; False:C215; \
 		"selection"; False:C215)
 	
