@@ -125,7 +125,7 @@ If (OK=1)
 								"tableNumber"; $tableId; \
 								"fieldNumber"; $fieldId; \
 								"criterion"; $criterion; \
-								"oneBox"; String:C10($valueDate; ISO date GMT:K1:10))
+								"oneBox"; Date:C102($value))
 							
 						: ($valueType=Is time:K8:8)
 							

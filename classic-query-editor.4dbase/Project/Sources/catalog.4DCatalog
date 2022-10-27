@@ -4,7 +4,7 @@
 	<schema name="DEFAULT_SCHEMA"/>
 	<table name="Table_1" uuid="434E897F0A7A4F3780144C079E17CF35" id="23">
 		<field name="PK" uuid="82779050B33C4167BF44EFCE3516DB7F" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
-		<field name="Field_2" uuid="01E30AA0D2B44B209D6C41A3065A855A" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Field_2" uuid="01E30AA0D2B44B209D6C41A3065A855A" type="8" never_null="true" id="2"/>
 		<field name="Field_3" uuid="98D0300196C54C4FAD7618D43622CB3A" type="10" limiting_length="255" never_null="true" id="3"/>
 		<field name="Field_4" uuid="B064840592244D6AB56C36EFEADAB9FC" type="10" limiting_length="255" never_null="true" id="4"/>
 		<field name="Field_5" uuid="827D6DC1817A4F849071890FC3FCD575" type="10" limiting_length="255" never_null="true" id="5"/>

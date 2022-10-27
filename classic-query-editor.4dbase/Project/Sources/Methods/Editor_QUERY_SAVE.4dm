@@ -105,7 +105,7 @@ If (Not:C34(Is nil pointer:C315($table)))
 							"tableNumber"; $tableId; \
 							"fieldNumber"; $fieldId; \
 							"criterion"; $criterion; \
-							"oneBox"; String:C10(Date:C102($value); ISO date GMT:K1:10))
+							"oneBox"; Date:C102($value))
 						
 					: ($fieldType=Is time:K8:8)
 						
